@@ -9,6 +9,7 @@ description : BMSes I made
 
 #Main section settings
 list_text: 全てのBMS
+more_text: [詳しく...]
 
 #For test playing
 bemuse: true 
