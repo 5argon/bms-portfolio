@@ -1,0 +1,373 @@
+{ "songs":
+  [ { "title": "뭞"
+    , "artist": "5argon"
+    , "genre": "Electro House"
+    , "bpm": 131
+    , "charts":
+      [ { "md5": "bbba4d78d442938079a8be89907f304d"
+        , "info":
+          { "title": "뭞"
+          , "artist": "5argon"
+          , "genre": "Electro House"
+          , "subtitles":
+            [ "Another"
+            ]
+          , "subartists":
+            [ "obj: YuuSaKi"
+            ]
+          , "difficulty": 4
+          , "level": 10
+          }
+        , "noteCount": 1134
+        , "bpm":
+          { "init": 131
+          , "min": 131
+          , "median": 131
+          , "max": 131
+          }
+        , "duration": 133.7404580152672
+        , "scratch": true
+        , "keys": "7K"
+        , "file": "otoko[ANOTHER].bms"
+        }
+      , { "md5": "cd33fa32e9fa18ee241d3e7e83850f31"
+        , "info":
+          { "title": "뭞"
+          , "artist": "5argon"
+          , "genre": "Electro House"
+          , "subtitles":
+            [ "Hyper"
+            ]
+          , "subartists":
+            [ "obj: YuuSaKi"
+            ]
+          , "difficulty": 3
+          , "level": 8
+          }
+        , "noteCount": 780
+        , "bpm":
+          { "init": 131
+          , "min": 131
+          , "median": 131
+          , "max": 131
+          }
+        , "duration": 133.7404580152672
+        , "scratch": true
+        , "keys": "7K"
+        , "file": "otoko[HYPER].bms"
+        }
+      , { "md5": "8e8ef9511b65d99cba70445ccb13e501"
+        , "info":
+          { "title": "뭞"
+          , "artist": "5argon"
+          , "genre": "Electro House"
+          , "subtitles":
+            [ "Normal"
+            ]
+          , "subartists":
+            [ "obj: YuuSaKi"
+            ]
+          , "difficulty": 2
+          , "level": 5
+          }
+        , "noteCount": 455
+        , "bpm":
+          { "init": 131
+          , "min": 131
+          , "median": 131
+          , "max": 131
+          }
+        , "duration": 133.7404580152672
+        , "scratch": true
+        , "keys": "7K"
+        , "file": "otoko[NORMAL].bms"
+        }
+      ]
+    , "warnings": []
+    , "id": "[5argon]otoko-ogg"
+    , "path": "[5argon]otoko-ogg"
+    }
+  , { "title": "rainy morning"
+    , "artist": "5argon (feat. imTiNEY)"
+    , "genre": "Drizzle"
+    , "bpm": 156
+    , "charts":
+      [ { "md5": "de734ade43d3048ad165cb21525a499d"
+        , "info":
+          { "title": "rainy morning"
+          , "artist": "5argon (feat. imTiNEY)"
+          , "genre": "Drizzle"
+          , "subtitles":
+            [ "ANOTHER"
+            ]
+          , "subartists":
+            [ "obj: Hostc*"
+            ]
+          , "difficulty": 4
+          , "level": 10
+          }
+        , "noteCount": 1243
+        , "bpm":
+          { "init": 156
+          , "min": 156
+          , "median": 156
+          , "max": 156
+          }
+        , "duration": 140
+        , "scratch": true
+        , "keys": "7K"
+        , "file": "_rainymorning_ANOTHER.bms"
+        }
+      , { "md5": "5e5f7b78956bb7b62961e130726098fb"
+        , "info":
+          { "title": "rainy morning"
+          , "artist": "5argon (feat. imTiNEY)"
+          , "genre": "Drizzle"
+          , "subtitles":
+            [ "BEGINNER"
+            ]
+          , "subartists":
+            [ "obj: flicknote"
+            ]
+          , "difficulty": 1
+          , "level": 1
+          }
+        , "noteCount": 99
+        , "bpm":
+          { "init": 156
+          , "min": 156
+          , "median": 156
+          , "max": 156
+          }
+        , "duration": 140
+        , "scratch": true
+        , "keys": "7K"
+        , "file": "_rainymorning_BEGINNER.bms"
+        }
+      , { "md5": "ac6504833b11874b451fe796efacee67"
+        , "info":
+          { "title": "rainy morning"
+          , "artist": "5argon (feat. imTiNEY)"
+          , "genre": "Drizzle"
+          , "subtitles":
+            [ "HYPER"
+            ]
+          , "subartists":
+            [ "obj: U咲"
+            ]
+          , "difficulty": 3
+          , "level": 7
+          }
+        , "noteCount": 793
+        , "bpm":
+          { "init": 156
+          , "min": 156
+          , "median": 156
+          , "max": 156
+          }
+        , "duration": 140
+        , "scratch": true
+        , "keys": "7K"
+        , "file": "_rainymorning_HYPER.bms"
+        }
+      , { "md5": "ecf3000225a1ca4562d388470fb47b2f"
+        , "info":
+          { "title": "rainy morning"
+          , "artist": "5argon (feat. imTiNEY)"
+          , "genre": "Drizzle"
+          , "subtitles":
+            [ "LIGHT"
+            ]
+          , "subartists":
+            [ "obj: flicknote"
+            ]
+          , "difficulty": 2
+          , "level": 3
+          }
+        , "noteCount": 284
+        , "bpm":
+          { "init": 156
+          , "min": 156
+          , "median": 156
+          , "max": 156
+          }
+        , "duration": 140
+        , "scratch": true
+        , "keys": "7K"
+        , "file": "_rainymorning_LIGHT.bms"
+        }
+      ]
+    , "warnings": []
+    , "id": "[5argon]rainy morning-ogg"
+    , "path": "[5argon]rainy morning-ogg"
+    }
+  , { "title": "Diamond Condenser (SCH Mix)"
+    , "artist": "9. Trance Team (Remixed by 5argon)"
+    , "genre": "Melodic Schranz"
+    , "bpm": 158
+    , "charts":
+      [ { "md5": "b7d7fcef7ebc4f0dfb294ab28e827b2c"
+        , "info":
+          { "title": "Diamond Condenser (SCH Mix)"
+          , "artist": "9. Trance Team (Remixed by 5argon)"
+          , "genre": "Melodic Schranz"
+          , "subtitles":
+            [ "Another"
+            ]
+          , "subartists":
+            [ "obj: Re:gats&"
+            ]
+          , "difficulty": 4
+          , "level": 12
+          }
+        , "noteCount": 2017
+        , "bpm":
+          { "init": 158
+          , "min": 158
+          , "median": 158
+          , "max": 158
+          }
+        , "duration": 148.86075949367088
+        , "scratch": true
+        , "keys": "7K"
+        , "file": "daiconsch a.bms"
+        }
+      , { "md5": "6e25dd58a5dcd8de66118451797ac80d"
+        , "info":
+          { "title": "Diamond Condenser (SCH Mix)"
+          , "artist": "9. Trance Team (Remixed by 5argon)"
+          , "genre": "Melodic Schranz"
+          , "subtitles":
+            [ "Hyper"
+            ]
+          , "subartists": []
+          , "difficulty": 3
+          , "level": 10
+          }
+        , "noteCount": 1237
+        , "bpm":
+          { "init": 158
+          , "min": 158
+          , "median": 158
+          , "max": 158
+          }
+        , "duration": 148.86075949367088
+        , "scratch": true
+        , "keys": "7K"
+        , "file": "daiconsch h.bms"
+        }
+      , { "md5": "a8d844d95c4ae7b8b09b998499f08108"
+        , "info":
+          { "title": "Diamond Condenser (SCH Mix)"
+          , "artist": "9. Trance Team (Remixed by 5argon)"
+          , "genre": "Melodic Schranz"
+          , "subtitles":
+            [ "Normal"
+            ]
+          , "subartists": []
+          , "difficulty": 2
+          , "level": 4
+          }
+        , "noteCount": 441
+        , "bpm":
+          { "init": 158
+          , "min": 158
+          , "median": 158
+          , "max": 158
+          }
+        , "duration": 148.86075949367088
+        , "scratch": true
+        , "keys": "7K"
+        , "file": "daiconsch n.bms"
+        }
+      ]
+    , "warnings": []
+    , "id": "diamondsch-ogg"
+    , "path": "diamondsch-ogg"
+    }
+  , { "title": "Dystopia High"
+    , "artist": "5argon"
+    , "genre": "Electronic Hardcore"
+    , "bpm": 157
+    , "charts":
+      [ { "md5": "9b2ab49c788eed926cff3db2ed796130"
+        , "info":
+          { "title": "Dystopia High"
+          , "artist": "5argon"
+          , "genre": "Electronic Hardcore"
+          , "subtitles":
+            [ "ANOTHER"
+            ]
+          , "subartists":
+            [ "obj:69 de 74"
+            ]
+          , "difficulty": 4
+          , "level": 11
+          }
+        , "noteCount": 1522
+        , "bpm":
+          { "init": 157
+          , "min": 157
+          , "median": 157
+          , "max": 157
+          }
+        , "duration": 128.31210191082803
+        , "scratch": true
+        , "keys": "7K"
+        , "file": "_dystopiahigh[ANOTHER].bms"
+        }
+      , { "md5": "0d3b6d4fcbe762e19a3fbe0afa49475d"
+        , "info":
+          { "title": "Dystopia High"
+          , "artist": "5argon"
+          , "genre": "Electronic Hardcore"
+          , "subtitles":
+            [ "Hyper"
+            ]
+          , "subartists": []
+          , "difficulty": 0
+          , "level": 8
+          }
+        , "noteCount": 885
+        , "bpm":
+          { "init": 157
+          , "min": 157
+          , "median": 157
+          , "max": 157
+          }
+        , "duration": 128.31210191082803
+        , "scratch": true
+        , "keys": "7K"
+        , "file": "_dystopiahigh[HYPER].bms"
+        }
+      , { "md5": "9d5cedc0b8e5d371fead7d46c80cdc92"
+        , "info":
+          { "title": "Dystopia High"
+          , "artist": "5argon"
+          , "genre": "Electronic Hardcore"
+          , "subtitles":
+            [ "NORMAL"
+            ]
+          , "subartists": []
+          , "difficulty": 0
+          , "level": 4
+          }
+        , "noteCount": 347
+        , "bpm":
+          { "init": 157
+          , "min": 157
+          , "median": 157
+          , "max": 157
+          }
+        , "duration": 128.31210191082803
+        , "scratch": true
+        , "keys": "7K"
+        , "file": "_dystopiahigh[NORMAL].bms"
+        }
+      ]
+    , "warnings": []
+    , "id": "dystopiahigh-ogg"
+    , "path": "dystopiahigh-ogg"
+    }
+  ]
+}
