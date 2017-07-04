@@ -13,27 +13,30 @@
     <section class="page-header">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-        <a href="" class="btn">Updates</a>
-        <a href="list" class="btn">BMS List</a>
+        <a href="" class="btn">List</a>
     {% if site.bemuse %}
-        <a href="play" class="btn">Play on browser</a>
+        <a target="_blank" href="http://bemuse.ninja/?server=https://raw.githubusercontent.com/{{site.github_username}}/bms/master/bms-play" class="btn">Play on browser</a>
     {% endif %}
 
     </section>
 
     <section class="main-content">
 
+      {{ content }}
+
+      <hr>
+
     {% if page.url == "/" %}
 
-    {% for post in site.posts %}
-        <div>
-        {{ post.content }}
-        </div>
-    {% endfor %}
+        {% for post in site.posts %}
+            <div style="border:1px solid black">
+            <center><b>{{ post.date }}</b></center>
+            {{ post.content }}
+            </div>
+        {% endfor %}
 
     {% endif %}
 
-      {{ content }}
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}
