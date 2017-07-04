@@ -1,6 +1,4 @@
-BMS=bms
-BMS_PLAY=bms-play
-BMS_ZIP=bms-zip
+source "settings.sh";
 for bms_path in $BMS/* ;do
     #echo $bms_path;
     FOLDER_NAME=$(basename "$bms_path")

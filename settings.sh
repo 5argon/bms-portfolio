@@ -1,1 +1,4 @@
 GDRIVE_BMS_FOLDER=0B7IfWv6WuKo8UXlJUzdsV1pqWXM
+BMS=bms
+BMS_PLAY=bms-play
+BMS_ZIP=bms-zip
