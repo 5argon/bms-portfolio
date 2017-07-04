@@ -31,25 +31,30 @@ $hr-border-color: #eff0f1 !default;
 {
     border: 1px solid black;
     margin: 0.5em;
-    padding: 0.5em;
+    padding: 1.2em;
 }
 
 .bms_date
 {
-    text-align: center;
+    text-align: right;
 }
 
 .bms_title
 {
-    font-size: 2em;
+    font-size: 1.5em;
+}
+
+.bms_genre
+{
+    font-size: 1.2em;
 }
 
 .bms_artist
 {
-    font-size: 0.6em;
+    font-size: 1em;
 }
 
 .bms_info
 {
-    background-color:#CCCCCC;
+    background-color:#EEEEEE;
 }
