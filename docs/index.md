@@ -1,7 +1,7 @@
 ---
-title: This is my title
+title: 5argon's BMS
 ---
 
 # Title
 
-Here is my page.
+My title page wow!

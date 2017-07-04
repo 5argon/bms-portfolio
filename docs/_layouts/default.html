@@ -15,18 +15,23 @@
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
         <a href="" class="btn">Updates</a>
         <a href="list" class="btn">BMS List</a>
+    {% if site.bemuse %}
         <a href="play" class="btn">Play on browser</a>
+    {% endif %}
+
     </section>
 
     <section class="main-content">
 
-<ul>
-{% for post in site.posts %}
-<li>
-<a href="{{ post.url }}">{{ post.title }}</a>
-</li>
-{% endfor %}
-</ul>
+    {% if page.url == "/" %}
+
+    {% for post in site.posts %}
+        <div>
+        {{ post.content }}
+        </div>
+    {% endfor %}
+
+    {% endif %}
 
       {{ content }}
 
