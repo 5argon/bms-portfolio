@@ -36,7 +36,7 @@
 
             <div class="bms_date">{{ post.date | date_to_long_string }}</div>
             <div class="bms_title"><a href="{{ post.url }}">{{ post.title }}</a></div>
-            {% if post.artist %} <div class="bms_artist">{{site.artist_text}} {{ post.artist }}</div> {% endif % }
+            {% if post.artist %} <div class="bms_artist">{{site.artist_text}} {{ post.artist }}</div> {% endif %}
             {{ post.excerpt }}
             <a href="{{ post.url }}">{{ site.more_text }}</a>
 
