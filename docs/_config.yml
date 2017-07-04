@@ -1,6 +1,21 @@
+#Do not edit these!
 theme: jekyll-theme-cayman
+permalink: none
+show_downloads: false
+
+#General settings
 title: 5argon's BMS
 description : BMSes I made
-show_downloads: false
-github_username: 5argon
+
+#Main section settings
+list_text: 全てのBMS
+
+#For test playing
 bemuse: true 
+play_text: ブラウザーでプレイ
+github_username: 5argon
+
+#For bulk downloading
+all_view: true
+all_view_text: Google Driveに全ダウンロード
+all_view_url: https://drive.google.com/open?id=0B7IfWv6WuKo8UXlJUzdsV1pqWXM

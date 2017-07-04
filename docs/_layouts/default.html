@@ -13,9 +13,12 @@
     <section class="page-header">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-        <a href="" class="btn">List</a>
+        <a href="" class="btn">{{site.list_text}}</a>
     {% if site.bemuse %}
-        <a target="_blank" href="http://bemuse.ninja/?server=https://raw.githubusercontent.com/{{site.github_username}}/bms/master/bms-play" class="btn">Play on browser</a>
+        <a target="_blank" href="http://bemuse.ninja/?server=https://raw.githubusercontent.com/{{site.github_username}}/bms/master/bms-play" class="btn">{{site.play_text}}</a>
+    {% endif %}
+    {% if site.all_view %}
+        <a target="_blank" href="{{site.all_view_url}}" class="btn">{{site.all_view_text}}</a>
     {% endif %}
 
     </section>
@@ -30,9 +33,11 @@
 
         {% for post in site.posts %}
             <div style="border:1px solid black">
-            <center><b>{{ post.date }}</b></center>
-            {{ post.content }}
+            <center><b>{{ post.date | date_to_long_string }}</b></center>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            {{ post.excerpt }}
             </div>
+            <br>
         {% endfor %}
 
     {% endif %}
