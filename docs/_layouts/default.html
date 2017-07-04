@@ -39,7 +39,8 @@
             {% if post.genre %} <div class="bms_genre">{{site.genre_text}} {{ post.genre }}</div> {% endif %}
             {% if post.artist %} <div class="bms_artist">{{site.artist_text}} {{ post.artist }}</div> {% endif %}
             {{ post.excerpt }}
-            <a href="{{ post.url }}">{{ site.more_text }}</a>
+
+            <a href="{{ site.github.repository_url}}{{ post.url | remove: ".html" }}">{{ site.more_text}}</a></div>
 
             <div class="bms_info">
                 {% if post.difficulties %}<div>{{site.difficulties_text}} : {{ post.difficulties }}</div> {% endif %}
