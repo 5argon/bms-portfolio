@@ -26,3 +26,30 @@ $table-border-color: #e9ebec !default;
 $hr-border-color: #eff0f1 !default;
 
 @import "{{ site.theme }}";
+
+.bms_box
+{
+    border: 1px black solid;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.bms_date
+{
+    text-align: center;
+}
+
+.bms_title
+{
+    font-size: 2em;
+}
+
+.bms_artist
+{
+    font-size: 0.6em;
+}
+
+.bms_info
+{
+    background-color:#CCCCCC;
+}

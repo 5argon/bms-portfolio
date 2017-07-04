@@ -9,7 +9,11 @@ description : BMSes I made
 
 #Main section settings
 list_text: 全てのBMS
-more_text: [詳しく...]
+artist_text: 
+genre_text: ジャンル
+difficulties_text: 難易度
+download_text: ダウンロード
+more_text: 詳しく...
 
 #For test playing
 bemuse: true 

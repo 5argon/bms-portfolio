@@ -13,7 +13,7 @@
     <section class="page-header">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-        <a href="" class="btn">{{site.list_text}}</a>
+        <a href="/" class="btn">{{site.list_text}}</a>
     {% if site.bemuse %}
         <a target="_blank" href="http://bemuse.ninja/?server=https://raw.githubusercontent.com/{{site.github_username}}/bms/master/bms-play" class="btn">{{site.play_text}}</a>
     {% endif %}
@@ -32,17 +32,21 @@
     {% if page.url == "/" %}
 
         {% for post in site.posts %}
-            <div style="border:1px solid black">
-            <center><b>{{ post.date | date_to_long_string }}</b></center>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-            <div>Artist : {{ post.artist }}</div>
+            <div class="bms_box" style="border:1px solid black">
+
+            <div class="bms_date">{{ post.date | date_to_long_string }}</div>
+            <div class="bms_title"><a href="{{ post.url }}">{{ post.title }}</a></div>
+            {% if post.artist %} <div class="bms_artist">{{site.artist_text}} {{ post.artist }}</div> {% endif % }
             {{ post.excerpt }}
             <a href="{{ post.url }}">{{ site.more_text }}</a>
-            <br>
-            <div>Difficulties : {{ post.difficulties }}</div>
-            <div>Download : <a href="{{ post.bms_url }}">{{ post.bms_url }}</a></div>
+
+            <div class="bms_info">
+                {% if post.genre %} <div>{{site.genre_text}} : {{ post.genre }}</div> {% endif %}
+                {% if post.difficulties %}<div>{{site.difficulties_text}} : {{ post.difficulties }}</div> {% endif %}
+                {% if post.bms_url %} <div>{{site.download_text}} : <a href="{{ post.bms_url }}">{{ post.bms_url }}</a></div> {% endif %}
             </div>
-            <br>
+
+            </div>
         {% endfor %}
 
     {% endif %}
